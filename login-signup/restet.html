@@ -3,10 +3,10 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html" ; charset-utf="8" />
     <title>
-      SignUp Page
+      Reset Password
     </title>
 
-    <link href="signup.css" rel="stylesheet" type="text/css" />
+    <link href="reset.css" rel="stylesheet" type="text/css" />
     <style>
       #msg {
         visibility: hidden;
@@ -59,23 +59,20 @@
     </style>
   </head>
   <body>
-    <div class="signup">
+    <div class="reset">
       <form>
-        <h2 style="color:yellow;">Sign Up</h2>
-        <input type="text" name="username" placeholder="FirstName" />
+        <h2 style="color:yellow;">Reset Password</h2>
+        <input type="password" name="password" placeholder="Old Password " />
         <br /><br />
-        <input type="text" name="username" placeholder="LastName" />
-        <br /><br />
-        <input type="password" name="password" placeholder="Password" />
+        <input type="password" name="password" placeholder="New password" />
         <br /><br />
         <input type="password" name="password" placeholder="Confirm Password" />
         <br /><br />
-        <input type="email" name="email" placeholder="E-mail Address" />
-        <br /><br />
-        <input type="button" name="Sign In" value="SignUp" onclick="myfunc()" />
+
+        <input type="button" name="Reset" value="Save" onclick="myfunc()" />
         <br />
         <div id="msg">
-          Congratulations you have successfully Signed Up !!
+          Congratulations you have successfully Reset your password !!
         </div>
         <script>
           function myfunc() {
@@ -87,7 +84,7 @@
           }
         </script>
         <br />
-        Already have account ??
+
         <a href="login.html" style="text-decoration:none; color:yellow;"
           >&nbsp; Log In</a
         >

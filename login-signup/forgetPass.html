@@ -3,10 +3,10 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html" ; charset-utf="8" />
     <title>
-      SignUp Page
+      Forget Password
     </title>
 
-    <link href="signup.css" rel="stylesheet" type="text/css" />
+    <link href="forgetPass.css" rel="stylesheet" type="text/css" />
     <style>
       #msg {
         visibility: hidden;
@@ -59,23 +59,21 @@
     </style>
   </head>
   <body>
-    <div class="signup">
+    <div class="forget">
       <form>
-        <h2 style="color:yellow;">Sign Up</h2>
-        <input type="text" name="username" placeholder="FirstName" />
+        <h2 style="color:yellow;">Reset Password</h2>
+        <h5>
+          Enter your email id associated with this account so that we can send
+          link to recreate your password !!
+        </h5>
+        <br />
+        <input type="email" name="email" placeholder="Enter you Email-Id" />
         <br /><br />
-        <input type="text" name="username" placeholder="LastName" />
-        <br /><br />
-        <input type="password" name="password" placeholder="Password" />
-        <br /><br />
-        <input type="password" name="password" placeholder="Confirm Password" />
-        <br /><br />
-        <input type="email" name="email" placeholder="E-mail Address" />
-        <br /><br />
-        <input type="button" name="Sign In" value="SignUp" onclick="myfunc()" />
+
+        <input type="button" name="Send" value="Send" onclick="myfunc()" />
         <br />
         <div id="msg">
-          Congratulations you have successfully Signed Up !!
+          Link sent to your mail !!
         </div>
         <script>
           function myfunc() {
@@ -87,7 +85,7 @@
           }
         </script>
         <br />
-        Already have account ??
+
         <a href="login.html" style="text-decoration:none; color:yellow;"
           >&nbsp; Log In</a
         >
