@@ -1,3 +1,5 @@
+// Operator basics, math opeartor, logical and typeOf operator
+
 var year, yearMark, yearJohn;
 
 year = 2020;
