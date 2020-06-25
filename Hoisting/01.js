@@ -1,3 +1,4 @@
+// execution context object includes -> variable object, scope chain, 'this' variable
 // hoisting in functions and variables
 
 //functions
