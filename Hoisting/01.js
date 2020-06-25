@@ -1,4 +1,4 @@
-// hoisting
+// hoisting in functions and variables
 
 //functions
 function calculateAge(year) {
